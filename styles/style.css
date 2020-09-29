@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    border-bottom: 1px solid #ececec;
+}
+
+.headerInside {
+    height: inherit;
+    /* background: lightgreen; */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+}
+
+.logo {
+    width: 167px;
+    line-height: 52px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 27px;
+    font-weight: 300;
+    padding-left: 75px;
+    margin-right:40px;
+    box-sizing:border-box;
+}
+
+.logo span {
+    color: #f16d7f;
+    font-weight: 400;
+}
+
+.searchWrap {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.searchWrap button i{
+    color:#a4a4a4;
+}
+
+.searchWrap input::placeholder{
+   color:#a4a4a4;
+}
+
+.searchBrowse {
+    height: inherit;
+    padding: 0 12px;
+    line-height:36px;
+    font-size: 14px;
+    color: #222222;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+}
+
+.searchBrowse i{
+    color:#838383;
+    @f+font-family
+}
+
+.searchWrap input {
+    height: inherit;
+    padding: 0 16px;
+    border: none;
+    outline: none;
+}
+
+.searchWrap button {
+    height: inherit;
+    padding: 0 12px;
+    border: 0;
+    background: none;
+    border-left: 1px solid #e6e6e6;
+}
+
+.headerCart {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.accountBtn {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 10px 15px 10px 20px;
+    background-color: #f16d7f;
+    color: white;
+    border: none;
+}
+
+.accountBtn i{
+    margin-left: 7px;
+}
+
+.topNav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topNav a:not(:last-child) {
+    margin-right: 45px;
+}
+
+.topNav a {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+}
+
+.topNav a:hover {
+    color: #f16d7f;
+}
+
+.topBannerWrap {
+    height: 610px;
+    background-color: #e8e8e8;
+}
+
+.topBannerContent {
+    height: inherit;
+    background: url(../images/topHeaderBack.png) no-repeat 554px 0;
+    background-size: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.topBannerSign {
+    height: 92px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.topBannerSign div:first-child {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 43px;
+}
+
+.topBannerSign div:last-child {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 32px;
+    margin-top: 19px;
+}
+
+.offers {
+    margin:100px auto 95px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 823px;
+}
+
+.offer1{
+    width:560px;
+    height:542px;
+    background:url('../images/offer1.jpg')no-repeat;
+    margin:0 20px 20px 0;
+}
+.offer2{
+    width:560px;
+    height:261px;
+    background:url('../images/offer2.jpg')no-repeat;
+    margin:0 20px 0 0;
+}
+.offer3{
+    width:560px;
+    height:261px;
+    background:url('../images/offer3.jpg')no-repeat;
+    margin:0 0 20px 0;
+}
+.offer4{
+    width:560px;
+    height:542px;
+    background:url('../images/offer4.jpg')no-repeat;
+}
+
+.offers > div:first-child {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.offers > div {
+    position: relative;
+}
+
+.offers .label {
+    position: absolute;
+    top: 25px;
+    padding: 15px 20px;
+    background: white;
+    text-transform: uppercase;
+}
+
+.labelTop {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.labelBottom {
+    font-size: 30px;
+    color: #f16d7f;
+    font-weight: 900;
+}
+
+.cards{
+    margin-bottom: 110px;
+}
+
+.cards .heading{
+    font-size:30px;
+    color:#222222;
+    font-weight: bold;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.cards .text{
+    text-align: center;
+    color: #9f9f9f;
+    margin-bottom: 55px;
+}
+
+.cards .cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card{
+    margin-bottom: 40px;
+}
+
+.cards .card:hover{
+    box-shadow:0 5px 8px rgba(0,0,0,0.16);
+}
+
+.cards .card:hover .cardPhotoWrapp:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background: rgba(58,56,56,0.83);
+}
+
+.cards .card:hover .btn{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 11px 15px 11px 45px;
+    background:url(../images/cart-white.png)no-repeat left 12px center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: absolute;
+    z-index: 6;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+
+.cards .cardPhotoWrapp{
+    position: relative;
+}
+
+.cards .btn{
+    display: none;
+}
+
+.cards .cardPhoto{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 18px;
+    vertical-align: top;
+}
+
+.cards .cardInner{
+    margin: 0 15px 20px;
+}
+
+.cards .headingCard{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.cards .headingLink{
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.cards .cost{
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16d7f;
+}
+
+.cards .linkWrapp{
+    text-align: center;
+}
+
+.cards .link{
+    padding: 15px 22px 16px 25px;
+    background: #f16d7f;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cards .link:hover{
+    background: #d14d5f;
+}
+
+.cards .link i{
+    vertical-align: top;
+    margin: 3px 0 0 4px;
+}
+
+.bottomBanner{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.bottomBannerSignWrapp{
+    box-sizing: border-box;
+    width: 767px;
+    background: url(../images/bottomBannerBg.jpg)no-repeat;
+    display: flex;
+    align-items:center;
+    padding-left: 40px;
+}
+
+.bottomBannerSign{
+    color: #fff;
+    font-weight: bold;
+}
+
+.bottomBannerSignTop{
+    /* ++css1 в photoshop размер шрифта 53.62 есть ли смысл указывать дробные значения? Насколько я знаю браузер округляет до целого */
+    font-size: 54px;
+}
+
+.bottomBannerSignTopRight{
+    color: #f16d7f;
+}
+
+.bottomBannerSignBottom{
+    font-size: 32px;
+}
+
+.bottomBannerContent{
+    width: 373px;
+    background: #222224;
+    padding: 50px 40px 60px 40px;
+    box-sizing: border-box;
+}
+
+.bottomBannerDetail{
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-bottom: 53px;
+}
+
+.bottomBannerDetail_delivery{
+    background-image: url(../images/bottomBannerDetailDelivery.png);
+}
+
+.bottomBannerDetail_sales{
+    background-image: url(../images/bottomBannerDetailSales.png);
+}
+
+.bottomBannerDetail_quality{
+    background-image: url(../images/bottomBannerDetailQuality.png);
+    margin-bottom: 0;
+}
+
+.bottomBannerDetailHeading{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.bottomBannerDetailText{
+    line-height: 160%;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.bottomBannerDetal{
+
+}
+
+.bottomBannerDetal{
+
+}
