@@ -69,7 +69,6 @@ body {
 
 .searchBrowse i{
     color:#838383;
-    @f+font-family
 }
 
 .searchWrap input {
@@ -410,12 +409,4 @@ body {
     line-height: 160%;
     font-weight: 300;
     font-size: 14px;
-}
-
-.bottomBannerDetal{
-
-}
-
-.bottomBannerDetal{
-
 }
