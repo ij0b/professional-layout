@@ -1,0 +1,44 @@
+$fontBase: "Lato", sans-serif;
+$imgPath: "../images/";
+$redLight: #f16d7f;
+@mixin offer($_h,$_bg,$_m:auto){
+    width:560px;
+    height:$_h;
+    background:url(#{$imgPath}#{$_bg})no-repeat;
+    margin:$_m;
+}
+
+%flex{
+    display: flex;
+}
+%Flexjcc{
+    justify-content:center;
+}
+%Flexjcsb{
+    justify-content:space-between;
+}
+%Flexaic{
+    align-items:center;
+}
+%fjcc{
+    @extend %flex;
+    @extend %Flexjcc;
+}
+%fjcsb{
+    @extend %flex;
+    @extend %Flexjcsb;
+}
+%faic{
+    @extend %flex;
+    @extend %Flexaic;
+}
+%faicJcc{
+    @extend %flex;
+    @extend %Flexaic;
+    @extend %Flexjcc;
+}
+%faicJcsb{
+    @extend %flex;
+    @extend %Flexaic;
+    @extend %Flexjcsb;
+}

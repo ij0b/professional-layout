@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Главная</title>
+    <title>Карточка товара</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -32,7 +32,7 @@
         </div>
         <nav class="topNav">
             <a href="">Home</a>
-            <a href="">Man</a>
+            <a class="act" href="">Man</a>
             <a href="">Women</a>
             <a href="">Kids</a>
             <a href="">Accoseriese</a>
@@ -41,236 +41,197 @@
         </nav>
     </header>
 
-    <div class="topBannerWrap">
-        <div class="container topBannerContent">
-            <div class="topBannerSign">
-                <div>THE BRAND</div>
-                <div>OF LUXERIOUS FASHION</div>
-            </div>
-        </div>
-    </div>
-    <div class="container offers">
-        <div class="offer1">
-            <div class="label">
-                <div class="labelTop">hot deal</div>
-                <div class="labelBottom">for men</div>
-            </div>
-        </div>
-        <div class="offer2">
-            <div class="label">
-                <div class="labelTop">luxirous & trendy</div>
-                <div class="labelBottom">accesories</div>
-            </div>
-        </div>
-        <div class="offer3">
-            <div class="label">
-                <div class="labelTop">30% offer</div>
-                <div class="labelBottom">women</div>
-            </div>
-        </div>
-        <div class="offer4">
-            <div class="label">
-                <div class="labelTop">new arrivals</div>
-                <div class="labelBottom">for kids</div>
-            </div>
+    <div class="newArrivalsWrap newArrivalsWrap_margin0">
+        <div class="container newArrivals">
+            <h1 class="main-caption">
+                NEW ARRIVALS
+            </h1>
+            <nav class="breadcrumbs__wrapp">
+                <ul class="breadcrumbs__ul">
+                    <li class="breadcrumbs__li">
+                        <a class="breadcrumbs__link" href="#">
+                            HOME
+                        </a>
+                        /
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <a class="breadcrumbs__link" href="#">
+                            MEN
+                        </a>
+                        /
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <span class="breadcrumbs__link breadcrumbs__link_act">
+                            NEW ARRIVALS
+                        </span>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 
-    <div class="cards container">
-        <div class="heading">
-            Fetured Items
+    <main>
+        <div class="cart-detail__wrap">
+            <div class="cart-detail__slider">
+                <i class="cart-detail__arrow cart-detail__arrow_left fas fa-chevron-left"></i>
+                <i class="cart-detail__arrow cart-detail__arrow_right fas fa-chevron-right"></i>
+                <div class="cart-detail__slider-item">
+                    <div class="cart-detail__img-wrap">
+                        <div class="container cart-detail__img-inner">
+                            <img class="cart-detail__img" src="images/cart-detail-1.png" alt="moschino cheap and chic">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="cart-detail__inner">
+                            <div class="cart-detail__caption-top">
+                                WOMEN COLLECTION
+                            </div>
+                            <div class="cart-detail__caption">
+                                MOSCHINO CHEAP AND CHIC
+                            </div>
+                            <div class="cart-detail__desc">
+                                Compellingly actualize fully researched processes before proactive outsourcing.
+                                Progressively syndicate collaborative architectures before cutting-edge services.
+                                Completely visualize parallel core competencies rather than exceptional portals.
+                            </div>
+                            <div class="cart-detail__features">
+                                <div class="cart-detail__feature">
+                                    MATERIAL:
+                                    <span class="cart-detail__feature-val">COTTON</span>
+                                </div>
+                                <div class="cart-detail__feature">
+                                    DESIGNER:
+                                    <span class="cart-detail__feature-val">BINBURHAN</span>
+                                </div>
+                            </div>
+                            <div class="cart-detail__cost">
+                                $561
+                            </div>
+                            <div class="cart-detail__options-wrap">
+                                <div class="cart-detail__options">
+                                    <div class="cart-detail__option">
+                                        <div class="cart-detail__option-key">
+                                            CHOOSE COLOR
+                                        </div>
+                                        <select class="cart-detail__option-select">
+                                            <option value="red"> Red
+                                            </option>
+                                            <option value="black">
+                                                Black
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="cart-detail__option">
+                                        <div class="cart-detail__option-key">
+                                            CHOOSE SIZE
+                                        </div>
+                                        <select class="cart-detail__option-select">
+                                            <option value="xxl"> XXL
+                                            </option>
+                                            <option value="m">
+                                                M
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="cart-detail__option">
+                                        <div class="cart-detail__option-key">
+                                            QUANTITY
+                                        </div>
+                                        <input class="cart-detail__option-input" type="number" name="quantity">
+                                    </div>
+                                </div>
+                                <div class="cart-detail__btn">
+                                    <span class="cart-detail__btn-text">
+                                        Add to Cart
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text">
-            Shop for items based on what featured in this week
-        </div>
-        <div class="cardsContainer">
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card1.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card2.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card3.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card4.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card5.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card6.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card7.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-            <section class="card">
-                <div class="cardPhotoWrapp">
-                    <img class="cardPhoto" src="images/card8.png" alt="card1">
-                    <button class="btn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="cardInner">
-                    <h2 class="headingCard">
-                        <a class="headingLink" href="#">
-                            mango people t-shirt
-                        </a>
-                    </h2>
-                    <div class="cost">
-                        $52.00
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="linkWrapp">
-            <a href="#" class="link">
-                Browse All Product
-                <i class="fas fa-long-arrow-alt-right"></i>
-            </a>
-        </div>
-    </div>
 
-    <div class="bottomBanner container">
-        <div class="bottomBannerSignWrapp">
-            <div class="bottomBannerSign">
-                <div class="bottomBannerSignTop">30% <span class="bottomBannerSignTopRight">OFFER</span></div>
-                <div class="bottomBannerSignBottom">FOR WOMEN</div>
+        <div class="cards container">
+            <div class="heading heading_grey">
+                YOU MAY LIKE ALSO
+            </div>
+            <div class="cardsContainer">
+                <section class="card">
+                    <div class="cardPhotoWrapp">
+                        <img class="cardPhoto" src="images/card9.png" alt="card1">
+                        <button class="btn">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="cardInner">
+                        <h2 class="headingCard">
+                            <a class="headingLink headingLink_grey" href="#">
+                                blaze leggings
+                            </a>
+                        </h2>
+                        <div class="cost">
+                            $52.00
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="cardPhotoWrapp">
+                        <img class="cardPhoto" src="images/card10.png" alt="card1">
+                        <button class="btn">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="cardInner">
+                        <h2 class="headingCard">
+                            <a class="headingLink headingLink_grey" href="#">
+                                alexa sweater
+                            </a>
+                        </h2>
+                        <div class="cost">
+                            $52.00
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="cardPhotoWrapp">
+                        <img class="cardPhoto" src="images/card11.png" alt="card1">
+                        <button class="btn">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="cardInner">
+                        <h2 class="headingCard">
+                            <a class="headingLink headingLink_grey" href="#">
+                                agnes top
+                            </a>
+                        </h2>
+                        <div class="cost">
+                            $52.00
+                        </div>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="cardPhotoWrapp">
+                        <img class="cardPhoto" src="images/card12.png" alt="card1">
+                        <button class="btn">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="cardInner">
+                        <h2 class="headingCard">
+                            <a class="headingLink headingLink_grey" href="#">
+                                sylva sweater
+                            </a>
+                        </h2>
+                        <div class="cost">
+                            $52.00
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-        <div class="bottomBannerContent">
-            <div class="bottomBannerDetail bottomBannerDetail_delivery">
-                <div class="bottomBannerDetailHeading">
-                    Free Delivery
-                </div>
-                <div class="bottomBannerDetailText">
-                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </div>
-            </div>
-            <div class="bottomBannerDetail bottomBannerDetail_sales">
-                <div class="bottomBannerDetailHeading">
-                    Sales & discounts
-                </div>
-                <div class="bottomBannerDetailText">
-                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </div>
-            </div>
-            <div class="bottomBannerDetail bottomBannerDetail_quality">
-                <div class="bottomBannerDetailHeading">
-                    Quallity assurance
-                </div>
-                <div class="bottomBannerDetailText">
-                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
     <div class="subscribe-wrapp">
         <div class="container">

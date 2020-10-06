@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Корзина</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
@@ -30,19 +30,19 @@
                 <i class="fas fa-caret-down"></i>
             </button>
         </div>
+        <nav class="topNav">
+            <a href="">Home</a>
+            <a class="act" href="">Man</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Accoseriese</a>
+            <a href="">Featured</a>
+            <a href="">Hot Deals </a>
+        </nav>
     </header>
-    <nav class="topNav">
-        <a href="">Home</a>
-        <a class="act" href="">Man</a>
-        <a href="">Women</a>
-        <a href="">Kids</a>
-        <a href="">Accoseriese</a>
-        <a href="">Featured</a>
-        <a href="">Hot Deals </a>
-    </nav>
 
-    <div class="main-caption-breadcrumbs">
-        <div class="container">
+    <div class="newArrivalsWrap">
+        <div class="container newArrivals">
             <h1 class="main-caption">
                 NEW ARRIVALS
             </h1>
@@ -92,7 +92,7 @@
                     ACTION
                 </div>
             </div>
-            <div class="product-list__tr">
+            <section class="product-list__tr">
                 <div class="product-list__td">
                     <div class="product-list__details">
                         <img class="product-list__photo" src="images/product-list_1.jpg" alt="Mango people t-shirt">
@@ -134,8 +134,8 @@
                 <div class="product-list__td">
                     <i class="product-list__delete fas fa-times-circle"></i>
                 </div>
-            </div>
-            <div class="product-list__tr">
+            </section>
+            <section class="product-list__tr">
                 <div class="product-list__td">
                     <div class="product-list__details">
                         <img class="product-list__photo" src="images/product-list_2.jpg" alt="Mango people t-shirt">
@@ -177,8 +177,8 @@
                 <div class="product-list__td">
                     <i class="product-list__delete fas fa-times-circle"></i>
                 </div>
-            </div>
-            <div class="product-list__tr">
+            </section>
+            <section class="product-list__tr">
                 <div class="product-list__td">
                     <div class="product-list__details">
                         <img class="product-list__photo" src="images/product-list_3.jpg" alt="Mango people t-shirt">
@@ -220,7 +220,7 @@
                 <div class="product-list__td">
                     <i class="product-list__delete fas fa-times-circle"></i>
                 </div>
-            </div>
+            </section>
         </div>
         <div class="product-list__btns">
             <a class="product-list__btn" href="#">
@@ -233,10 +233,10 @@
     </main>
 
     <div class="order container">
-        <div class="order__column">
-            <div class="order__caption">
+        <section class="order__column">
+            <h2 class="order__caption">
                 SHIPPING ADRESS
-            </div>
+            </h2>
             <form class="order__shipping-adress">
                 <input class="order__input" list="order__towns" name="order__towns" placeholder="Town">
                 <datalist id="order__towns">
@@ -247,11 +247,11 @@
                 <input class="order__input" type="text" name="Postcode/Zip" placeholder="Postcode/Zip">
                 <button class="order__btn" type="submit">GET A QUOTE</button>
             </form>
-        </div>
-        <div class="order__column">
-            <div class="order__caption">
+        </section>
+        <section class="order__column">
+            <h2 class="order__caption">
                 COUPON DISCOUNT
-            </div>
+            </h2>
             <div class="order__text">
                 Enter your coupon code if you have one
             </div>
@@ -259,7 +259,7 @@
                 <input class="order__input" type="text" name="order__state" placeholder="State">
                 <button class="order__btn" type="submit">APPLY COUPON</button>
             </form>
-        </div>
+        </section>
         <div class="order__column">
             <div class="order__column-inner">
                 <div class="order__sub-total">
@@ -289,10 +289,10 @@
                         <img class="subscribe__photo" src="images/subscribe__review-1.png"
                             alt="Фото оставившего комментарий">
                         <div class="subscribe__review-content">
-                            <div class="subscribe__text">
+                            <blockquote class="subscribe__text">
                                 “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
                                 a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
-                            </div>
+                            </blockquote>
                             <div class="subscribe__name">
                                 Bin Burhan
                             </div>
@@ -308,7 +308,7 @@
                     </div>
                 </div>
             </div>
-            <div class='subscribe__form-wrapp'>
+            <div class="subscribe__form-wrapp">
                 <form class="subscribe__form">
                     <div class="subscribe__caption">
                         SUBSCRIBE
@@ -317,10 +317,10 @@
                         FOR OUR NEWLETTER AND PROMOTION
                     </div>
                     <div class="subscribe__input-wrapp">
-                        <input class="subscribe__input" type='email' placeholder="Enter Your Email">
+                        <input class="subscribe__input" type="email" placeholder="Enter Your Email">
                         <button class="subscribe__btn" type="submit">Subscribe</button>
                     </div>
-                    </from>
+                </form>
             </div>
         </div>
     </div>
@@ -341,7 +341,7 @@
                     Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
                 </div>
             </div>
-            <div class="footer__column">
+            <section class="footer__column">
                 <h2 class="footer__caption">
                     COMPANY
                 </h2>
@@ -374,8 +374,8 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
-            <div class="footer__column">
+            </section>
+            <section class="footer__column">
                 <h2 class="footer__caption">
                     INFORMATION
                 </h2>
@@ -408,8 +408,8 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
-            <div class="footer__column">
+            </section>
+            <section class="footer__column">
                 <h2 class="footer__caption">
                     SHOP CATEGORY
                 </h2>
@@ -442,7 +442,7 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </section>
         </div>
 
         <div class="copyright">
@@ -450,23 +450,24 @@
                 <div class="copyright__text">
                     &copy; 2017 Brand All Rights Reserved.
                 </div>
-                <div class="copyright__social-wrapp">
+
+                <nav class="copyright__social-wrapp">
                     <a class="copyright__social-link" href="#">
-                        <img class="copyright__social-icon" src="images/social__facebook.png" alt="facebook">
+                        <i class="copyright__social-icon fab fa-facebook-f"></i>
                     </a>
                     <a class="copyright__social-link copyright__social-link_hover" href="#">
-                        <img class="copyright__social-icon" src="images/social__tweeter.png" alt="tweeter">
+                        <i class="copyright__social-icon fab fa-twitter"></i>
                     </a>
                     <a class="copyright__social-link" href="#">
-                        <img class="copyright__social-icon" src="images/social__in.png" alt="in">
+                        <i class="copyright__social-icon fab fa-linkedin-in"></i>
                     </a>
                     <a class="copyright__social-link" href="#">
-                        <img class="copyright__social-icon" src="images/social__r.png" alt="r">
+                        <i class="copyright__social-icon fab fa-pinterest-p"></i>
                     </a>
                     <a class="copyright__social-link" href="#">
-                        <img class="copyright__social-icon" src="images/social__google_plus.png" alt="google plus">
+                        <i class="copyright__social-icon fab fa-google-plus-g"></i>
                     </a>
-                </div>
+                </nav>
             </div>
         </div>
     </footer>
