@@ -1,11 +1,11 @@
 $fontBase: "Lato", sans-serif;
 $imgPath: "../images/";
 $redLight: #f16d7f;
-@mixin offer($_h,$_bg,$_m:auto){
+@mixin offer($_height,$_background,$_margin:auto){
     width:560px;
-    height:$_h;
-    background:url(#{$imgPath}#{$_bg})no-repeat;
-    margin:$_m;
+    height:$_height;
+    background:url(#{$imgPath}#{$_background})no-repeat;
+    margin:$_margin;
 }
 
 %flex{
