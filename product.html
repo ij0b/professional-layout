@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товар</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="containerBase headerInside">
+            <div class="logo">
+                BRAN<span>D</span>
+            </div>
+            <form class="searchWrap">
+                <div class="searchBrowse">
+                    Browse <i class="fas fa-caret-down"></i>
+                </div>
+                <input placeholder="Search for Item..." type="text">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <img class="headerCart" src="images/cart.png" alt="">
+            <button class="accountBtn">
+                My Account
+                <i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+        <nav class="topNav">
+            <a href="">Home</a>
+            <a class="act" href="">Man</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Accoseriese</a>
+            <a href="">Featured</a>
+            <a href="">Hot Deals </a>
+        </nav>
+    </header>
+
+    <div class="newArrivalsWrap">
+        <div class="containerBase newArrivals">
+            <h1 class="main-caption">
+                NEW ARRIVALS
+            </h1>
+            <nav class="breadcrumbs__wrapp">
+                <ul class="breadcrumbs__ul">
+                    <li class="breadcrumbs__li">
+                        <a class="breadcrumbs__link" href="#">
+                            HOME
+                        </a>
+                        /
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <a class="breadcrumbs__link" href="#">
+                            MEN
+                        </a>
+                        /
+                    </li>
+                    <li class="breadcrumbs__li">
+                        <span class="breadcrumbs__link breadcrumbs__link_act">
+                            NEW ARRIVALS
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="containerBase">
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        CATEGORY
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <nav class="card__menu">
+                                        <ul class="card__menu-ul">
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Accessories
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Bags
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Denim
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Hoodies & Sweatshirts
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Jackets & Coats
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Pants
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Polos
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Shirts
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Shoes
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Shorts
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Sweaters & Knits
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    T-Shirts
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Tanks
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        BRAND
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <nav class="card__menu">
+                                        <ul class="card__menu-ul">
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Brand 1
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Brand 2
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        DESIGNER
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <nav class="card__menu">
+                                        <ul class="card__menu-ul">
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Designer 1
+                                                </a>
+                                            </li>
+                                            <li class="card__menu-li">
+                                                <a class="card__menu-a" href="#">
+                                                    Designer 2
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9">
+                    <div class="filter row">
+                        <div class="col-xl-4">
+                            <div class="filter__caption">
+                                TRENDING NOW
+                            </div>
+                            <span class="filter__btn">
+                                Bohemian
+                            </span>
+                            <span class="filter__btn">
+                                Floral
+                            </span>
+                            <span class="filter__btn">
+                                Lace
+                            </span>
+                            <span class="filter__btn">
+                                Floral
+                            </span>
+                            <span class="filter__btn">
+                                Lace
+                            </span>
+                            <span class="filter__btn">
+                                Bohemian
+                            </span>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="filter__caption">
+                                SIZE
+                            </div>
+                            <div class="form-check__wrapp">
+                                <div class="form-check form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck1">
+                                    <label class="form-check-label" for="filterCheck1">
+                                        XXS
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck2">
+                                    <label class="form-check-label" for="filterCheck2">
+                                        X S
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck3">
+                                    <label class="form-check-label" for="filterCheck3">
+                                        S
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck4">
+                                    <label class="form-check-label" for="filterCheck4">
+                                        M
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck5">
+                                    <label class="form-check-label" for="filterCheck5">
+                                        L
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck6">
+                                    <label class="form-check-label" for="filterCheck6">
+                                        XL
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="filterCheck7">
+                                    <label class="form-check-label" for="filterCheck7">
+                                        XXL
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="filter__caption">
+                                PRICE
+                            </div>
+                            <input class="filter__range" type="range" min="0" max="1000" value="500" oninput="range()">
+                            <div class="filter__cost-wrap">
+                                <div class="filter__cost filter__cost_min">
+                                    $0
+                                </div>
+                                <div class="filter__cost filter__cost_max">
+                                    $1000
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sort">
+                        <div class="sort__item">
+                            <label for="sort-name">Sort By</label>
+                            <select class="form-control" id="sort-name" required>
+                                <option selected value="">Name</option>
+                                <option>Name 2</option>
+                                <option>long text long text long text long text long text</option>
+                            </select>
+                        </div>
+                        <div class="sort__item">
+                            <label for="sort-show">Show</label>
+                            <select class="form-control" id="sort-show" required>
+                                <option selected value="">01</option>
+                                <option>02</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cards cards__product">
+                        <div class="cardsContainer">
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card13.png" alt="card13">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card14.png" alt="card14">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card3.png" alt="card3">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card15.png" alt="card15">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card7.png" alt="card7">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card16.png" alt="card16">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card6.png" alt="card6">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card14.png" alt="card14">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card">
+                                <div class="cardPhotoWrapp">
+                                    <img class="cardPhoto" src="images/card17.png" alt="card17">
+                                    <button class="btn">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                                <div class="cardInner">
+                                    <h2 class="headingCard">
+                                        <a class="headingLink" href="#">
+                                            mango people t-shirt
+                                        </a>
+                                    </h2>
+                                    <div class="cost">
+                                        $52.00
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="card-bottom">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">20</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <a href="#" class="link__view-all">
+                                View All
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="bottomBanner bottomBanner__card containerBase ">
+        <div class="bottomBannerContent">
+            <div class="bottomBannerDetail bottomBannerDetail_delivery">
+                <div class="bottomBannerDetailHeading">
+                    Free Delivery
+                </div>
+                <div class="bottomBannerDetailText">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+            <div class="bottomBannerDetail bottomBannerDetail_sales">
+                <div class="bottomBannerDetailHeading">
+                    Sales & discounts
+                </div>
+                <div class="bottomBannerDetailText">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+            <div class="bottomBannerDetail bottomBannerDetail_quality">
+                <div class="bottomBannerDetailHeading">
+                    Quallity assurance
+                </div>
+                <div class="bottomBannerDetailText">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe-wrapp">
+        <div class="containerBase">
+            <div class="subscribe__review-wrapp">
+                <div class="subscribe__review-inner">
+                    <div class="subscribe__review">
+                        <img class="subscribe__photo" src="images/subscribe__review-1.png"
+                            alt="Фото оставившего комментарий">
+                        <div class="subscribe__review-content">
+                            <blockquote class="subscribe__text">
+                                “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                            </blockquote>
+                            <div class="subscribe__name">
+                                Bin Burhan
+                            </div>
+                            <div class="subscribe__desc">
+                                Dhaka, Bd
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subscribe__dotes">
+                        <div class="subscribe__dote"></div>
+                        <div class="subscribe__dote subscribe__dote_act"></div>
+                        <div class="subscribe__dote"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe__form-wrapp">
+                <form class="subscribe__form">
+                    <div class="subscribe__caption">
+                        SUBSCRIBE
+                    </div>
+                    <div class="subscribe__form-desc">
+                        FOR OUR NEWLETTER AND PROMOTION
+                    </div>
+                    <div class="subscribe__input-wrapp">
+                        <input class="subscribe__input" type="email" placeholder="Enter Your Email">
+                        <button class="subscribe__btn" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="containerBase">
+            <div class="footer__logo-column">
+                <div class="footer__logo">
+                    BRAN<span class="footer__logo-symbol">D</span>
+                </div>
+                <div class="footer__text">
+                    Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded
+                    array of processes and cross-unit partnerships.
+                </div>
+                <div class="footer__text">
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </div>
+            </div>
+            <section class="footer__column">
+                <h2 class="footer__caption">
+                    COMPANY
+                </h2>
+                <nav>
+                    <ul class="footer__list">
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                How It Works
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer__column">
+                <h2 class="footer__caption">
+                    INFORMATION
+                </h2>
+                <nav>
+                    <ul class="footer__list">
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Tearms & Condition
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                How to Buy
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                How to Sell
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Promotion
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer__column">
+                <h2 class="footer__caption">
+                    SHOP CATEGORY
+                </h2>
+                <nav>
+                    <ul class="footer__list">
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Men
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Women
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Child
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Apparel
+                            </a>
+                        </li>
+                        <li class="footer__list-elm">
+                            <a class="footer__link" href="#">
+                                Browse
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+
+        <div class="copyright">
+            <div class="containerBase">
+                <div class="copyright__text">
+                    &copy; 2017 Brand All Rights Reserved.
+                </div>
+
+                <nav class="copyright__social-wrapp">
+                    <a class="copyright__social-link" href="#">
+                        <i class="copyright__social-icon fab fa-facebook-f"></i>
+                    </a>
+                    <a class="copyright__social-link copyright__social-link_hover" href="#">
+                        <i class="copyright__social-icon fab fa-twitter"></i>
+                    </a>
+                    <a class="copyright__social-link" href="#">
+                        <i class="copyright__social-icon fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="copyright__social-link" href="#">
+                        <i class="copyright__social-icon fab fa-pinterest-p"></i>
+                    </a>
+                    <a class="copyright__social-link" href="#">
+                        <i class="copyright__social-icon fab fa-google-plus-g"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
