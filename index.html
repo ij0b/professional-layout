@@ -7,11 +7,22 @@
     <title>Главная</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="animate/animate.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header class="header">
+
+    <!-- <img src="images/cart.png" class="wow2 flipInX animated" data-wow-offset="200" src="images/dog3.jpg"
+        alt="Собака - лучший друг человека" style="visibility: visible; animation-name: flipInX;">
+
+
+    <section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10"
+        data-wow-iteration="10">sdafadsfs
+    </section> -->
+
+    <!-- <div style='height:2000px;'>sdf</div> -->
+    <header class="header pulse animated">
         <div class="containerBase headerInside">
             <div class="logo">
                 BRAN<span>D</span>
@@ -42,7 +53,7 @@
         </nav>
     </header>
 
-    <div class="topBannerWrap">
+    <div class="topBannerWrap pulse animated">
         <div class="containerBase topBannerContent">
             <div class="topBannerSign">
                 <div>THE BRAND</div>
@@ -50,7 +61,8 @@
             </div>
         </div>
     </div>
-    <div class="containerBase offers">
+    <div class="containerBase offers wow flipInX" data-wow-duration="2s" data-wow-delay="0s" data-wow-offset="0"
+        data-wow-iteration="1">
         <div class="offer1">
             <div class="label">
                 <div class="labelTop">hot deal</div>
@@ -77,8 +89,9 @@
         </div>
     </div>
 
-    <div class="cards containerBase">
-        <div class="heading">
+    <div class="cards containerBase wow zoomInLeft" data-wow-duration="2s" data-wow-delay="0s" data-wow-offset="0"
+        data-wow-iteration="1">
+        <div class="heading wow bounceInUp">
             Fetured Items
         </div>
         <div class="text">
@@ -238,7 +251,8 @@
         </div>
     </div>
 
-    <div class="bottomBanner containerBase">
+    <div class="bottomBanner containerBase wow jackInTheBox" data-wow-duration="2s" data-wow-delay="0s"
+        data-wow-offset="0">
         <div class="bottomBannerSignWrapp">
             <div class="bottomBannerSign">
                 <div class="bottomBannerSignTop">30% <span class="bottomBannerSignTopRight">OFFER</span></div>
@@ -273,7 +287,7 @@
         </div>
     </div>
 
-    <div class="subscribe-wrapp">
+    <div class="subscribe-wrapp wow backInUp" data-wow-duration="2s" data-wow-delay="0s" data-wow-offset="0">
         <div class="containerBase">
             <div class="subscribe__review-wrapp">
                 <div class="subscribe__review-inner">
@@ -317,7 +331,7 @@
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer wow pulse" data-wow-duration="5s" data-wow-delay="0s" data-wow-offset="0">
         <div class="containerBase">
             <div class="footer__logo-column">
                 <div class="footer__logo">
@@ -463,6 +477,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/js.js"></script>
 </body>
 
 </html>

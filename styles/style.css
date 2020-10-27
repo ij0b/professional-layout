@@ -10824,6 +10824,10 @@ a.text-dark:hover, a.text-dark:focus {
           align-items: center;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;

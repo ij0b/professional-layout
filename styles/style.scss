@@ -3,6 +3,10 @@
 @import "../bootstrap-4.5.2/scss/bootstrap.scss";
 @import "_variables.scss";
 
+html{
+    overflow-x:hidden;
+}
+
 body{
     margin: 0;
     font-family: $fontBase;
